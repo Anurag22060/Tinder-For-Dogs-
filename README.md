@@ -1,2 +1,1 @@
-# Tindog-
-This website is to find Dogs
+TinDog Starting Files

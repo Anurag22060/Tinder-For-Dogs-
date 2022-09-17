@@ -1,0 +1,186 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-bold', sans-serif;
+}
+p{
+  color: #8f8f8f;
+}
+
+/* Background-Colours */
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+/* headings */
+.big-heading{
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+}
+
+.feature-heading{
+    size:1.5rem;
+}
+.dog-names-heading{
+  size:1.5rem;
+}
+
+.container-fluid{
+  padding:7% 15%;
+}
+/* Navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: 'Montserrat-light';
+
+}
+/*Download-button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+/* Title section */
+#title
+{
+
+  text-align: left;
+}
+#title .container-fluid{
+  padding:3% 15% 7%;
+}
+/* title-image */
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+  position:absolute;
+}
+/* icon-styling */
+.icon-circle{
+  color:orange;
+  font-size:40px;  /*NOTE:-Also you can add fa-4x to <i class="fa-solid fa-circle-check icon-circle fa-3x"></i> in index.html  */
+  position:relative;
+
+}
+.icon-bullseye{
+  color:orange;
+  /*  font-size:40px; */  /*note:- Alternate shown in   <i class="fa-solid fa-bullseye icon-bullseye "></i> in index.html */
+  position:relative;
+
+}
+
+.icon-heart{
+  color:orange;
+  font-size:40px;
+  position:relative;
+}
+/* color changling ( On Hovering)  */
+.icon-circle:hover{
+    color:#ff4c68;
+}
+.icon-bullseye:hover{
+  color:#ff4c68;
+}
+.icon-heart:hover{
+  color:#ff4c68;
+}
+
+
+
+/* features */
+#features{
+
+  position: relative;
+  z-index: 1;
+}
+/* feature-text */
+.feature-text{
+  padding:5%;
+
+}
+
+
+ /* testimonials */
+#testimonials{
+
+  background-color: #ef8172;
+}
+
+.testimonials-image{
+  width:20%;
+  border-radius: 100%;
+  padding: 20px;
+}
+.testimonials-title{
+  font-size:3rem;
+  line-height:1.5;
+}
+/* Press */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 40px;
+}
+.press-logo{
+  width:15%;
+  margin: 30px 30px 50px;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+
+}
+.pricing-heading{
+  font-size:3rem;
+  line-height:1.5;
+}
+.price-text{
+  font-size:3rem;
+  line-height:1.5;
+}
+.pricing-col{
+  padding:3% 2%;
+}
+
+/* Call to Action */
+
+
+.icon-footer{
+  color:#000;
+  margin:20px 10px;
+}
+/* media-- Used to make website responsive */
+
+@media (max-width:995px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
